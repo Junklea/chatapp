@@ -1,22 +1,22 @@
-import { extendTheme } from "@chakra-ui/react";
+import { extendTheme } from '@chakra-ui/react';
 
 const theme = {
   config: {
-    intialColorMode: "dark",
+    intialColorMode: 'dark',
     useSystemColorMode: true,
   },
   styles: {
     global: {
       body: {
         margin: 0,
-        "font-family":
+        fontFamily:
           "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif",
-        "-webkit-font-smoothing": "antialiased",
-        "-moz-osx-font-smoothing": "grayscale",
+        WebKitFontSmoothing: 'antialiased',
+        MozOsxFontSmoothing: 'grayscale',
       },
 
       code: {
-        "font-family":
+        fontFamily:
           "source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace",
       },
     },
